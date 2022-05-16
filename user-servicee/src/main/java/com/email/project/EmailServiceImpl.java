@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class EmailServiceImpl implements EmailService{
+public class EmailServiceImpl {
 	@Autowired
 	private JavaMailSender javaMailSender;
 
@@ -13,6 +13,7 @@ public class EmailServiceImpl implements EmailService{
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
 	
 
 }
